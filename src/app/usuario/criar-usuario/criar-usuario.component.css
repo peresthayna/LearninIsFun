@@ -1,0 +1,25 @@
+.container {
+  background-color: #FFFFFF;
+  width: 80%;
+  margin: auto;
+}
+
+.btn-next {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  padding: 0;
+}
+
+.container-fluid {
+  height: 768px !important;
+}
+
+.aumentar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  padding: 0;
+}

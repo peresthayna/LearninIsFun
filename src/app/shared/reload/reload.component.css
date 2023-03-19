@@ -1,0 +1,13 @@
+button, img {
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+
+button {
+  position: absolute;
+  right: 9em;
+  top: 42em;
+}

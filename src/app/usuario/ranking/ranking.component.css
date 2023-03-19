@@ -1,0 +1,16 @@
+img {
+  width: 100px;
+  height: 100px;
+}
+
+h2 {
+  color: #000000;
+}
+
+h5 {
+  line-height: 100px;
+}
+
+.container-fluid {
+  background-color: #FFFCA3 !important;
+}

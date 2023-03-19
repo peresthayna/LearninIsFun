@@ -1,0 +1,24 @@
+.btn-heart {
+  padding: 0%;
+  border: none;
+}
+
+.card {
+  border: #808080 solid 1px;
+  width: 10rem;
+  margin: 0 auto;
+  float: none;
+}
+
+.card-body {
+  padding: 0%;
+}
+
+li {
+  border-top: #808080 solid 1px;
+}
+
+.list-group-item {
+  padding: 6px 8px;
+  width: 53px;
+}

@@ -1,0 +1,12 @@
+<div class="container-fluid bg">
+    <app-navbar></app-navbar>
+</div>
+<div class="container-fluid background text-center">
+    <h3>{{literals.subtitulo}}</h3>
+    <h1>LearningIsFun</h1>
+    <div class="opcoes mt-5">
+        <button class="btn mr-5" matTooltip="Carregar Jogo" [routerLink]="'/selecionarJogador'"><img src="../../../assets/main/users.png"></button>
+        <button class="btn" matTooltip="Iniciar Novo Jogo" [routerLink]="'/criarJogador'"><img src="../../../assets/main/video game.png"></button>
+        <button class="btn ml-5" matTooltip="Ranking" [routerLink]="'/ranking'"><img src="../../../assets/main/trophy.png"></button>
+    </div>
+</div>

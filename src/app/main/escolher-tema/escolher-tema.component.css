@@ -1,0 +1,40 @@
+.container-fluid {
+  background-color: #DBB1F1;
+  height: 768px;
+}
+
+.games {
+  margin-top: 50px;
+  position: relative;
+  top: 85px;
+}
+
+.game, .games img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 0;
+  box-shadow: 2px 2px 4px #000000;
+}
+
+.ling {
+  background-color: #FFB9DD;
+  margin-right: 5em;
+}
+
+.math {
+  background-color: #F6AAAA;
+  margin-right: 5em;
+  margin-left: 5em;
+}
+
+.scie {
+  background-color: #A1DCFE;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.geo {
+  background-color: #C4EEA6;
+  margin-left: 5em;
+}

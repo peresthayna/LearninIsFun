@@ -1,0 +1,21 @@
+<div class="main" [ngStyle]="{'background-color':temaAtual.background}">
+  <app-botao-voltar></app-botao-voltar>
+  <div class="pt-5">
+    <h2 class="text-center">Jogos Educativos</h2>
+    <div *ngFor="let categoria of temaAtual.categorias; let i = index">
+      <div class="row mt-5" *ngIf="categoria!=null">
+        <div class="col-2">
+          <img [src]="categoria.imagem" class="categorias">
+        </div>
+        <div class="col-10">
+          <h5> {{ categoria.nome }} </h5>
+          <div *ngFor="let jogo of categoria.jogos" class="display">
+            <button class="btn" (click)="redirect(jogo.link)"><img [src]="jogo.imagem" class="jogo"></button>
+          </div>
+        </div>
+      </div>
+      <hr *ngIf="i < (temaAtual.categorias.length - 1)">
+    </div>
+  </div>
+</div>
+<app-perfil></app-perfil>

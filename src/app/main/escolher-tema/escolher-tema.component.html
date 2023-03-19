@@ -1,0 +1,11 @@
+<div class="text-center container-fluid">
+  <app-botao-voltar></app-botao-voltar>
+  <h3 class="pt-3">{{literals.escolhaUmTema}}</h3>
+  <div class="games">
+    <button class="btn game ling" (click)="redirect(1)"><img src="../../../assets/main/abc.png"><h3>{{literals.linguagens}}</h3></button>
+    <button class="btn game math" (click)="redirect(2)"><img src="../../../assets/main/math.jpg"><h3>{{literals.matematica}}</h3></button>
+    <button class="btn game scie" (click)="redirect(3)"><img src="../../../assets/main/ciencia.png"><h3>{{literals.ciencias}}</h3></button>
+    <button class="btn game geo" (click)="redirect(4)"><img src="../../../assets/main/geo.png"><h3>{{literals.humanas}}</h3></button>
+  </div>
+</div>
+<app-perfil></app-perfil>

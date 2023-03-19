@@ -1,0 +1,14 @@
+<div class="container" *ngIf="usuario">
+  <div class="row">
+    <div class="col-6 text-center py-1">
+      <img [src]="'../../../assets/avatares/'+usuario.avatar" class="user">
+      <h5 style="margin-bottom: 0;">{{ usuario.nome }}</h5>
+    </div>
+    <div class="col-6 text-center pt-4">
+      <h5 style="display: inline-block;">{{ usuario.pontos }}</h5>
+      <img src="../../../assets/main/star.png" class="icon"><br>
+      <h5 class="mt-2" style="display: inline-block;">{{ usuario.nivel }}</h5>
+      <img src="../../../assets/main/crown.png" class="icon mt-2">
+    </div>
+  </div>
+</div>
